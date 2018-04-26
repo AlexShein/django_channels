@@ -9,6 +9,6 @@ from django.conf.urls import url
 
 app = ProtocolTypeRouter({
     "websocket": URLRouter([
-        url(r"^test/$", consumers.BaseConsumer),
+        url(r"^ws/test/$", consumers.BaseConsumer),
     ]),
 })

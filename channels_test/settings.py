@@ -57,7 +57,7 @@ ROOT_URLCONF = 'channels_test.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['channels_test/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
