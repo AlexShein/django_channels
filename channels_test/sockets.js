@@ -1,4 +1,4 @@
-socket = new WebSocket("ws://127.0.0.1:8000/test/");
+socket = new WebSocket("ws://127.0.0.1:8000/ws/test/");
 socket.onmessage = function(e) {
     alert(e.data);
 }
